@@ -1,8 +1,9 @@
 @import 'https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap';
 
 .intro {
   font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-style: normal;
   width: 90rem;
   display: flex;
@@ -20,25 +21,22 @@
 
 .intro h2 {
   font-weight: 600;
+  font-family: 'DM Serif Display', serif;
 }
 
 .intro p {
-  font-weight: 500;
+  /* font-weight: 500; */
   /* margin-left: 5rem; */
-  font-size: 1.5rem;
   margin-top: 1rem;
   line-height: 1.5;
   letter-spacing: 0.1px;
 }
 
-.items {
+/* .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   row-gap: 1.5rem;
   margin-top: 40px;
-}
+} */
 
-.items figcaption {
-    font-size: 1.5rem;
-}
